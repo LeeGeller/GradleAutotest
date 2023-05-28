@@ -23,7 +23,7 @@ public class CashbackHackServiceTestWitJunit4 {
     @org.junit.Test
     public void testWhenAmountIsThousand() {
         int amount = 1000;
-        int expected = 1000;
+        int expected = 0;
 
         CashbackHackService service = new CashbackHackService();
 
