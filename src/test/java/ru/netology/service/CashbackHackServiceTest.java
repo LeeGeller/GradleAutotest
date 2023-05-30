@@ -18,7 +18,7 @@ public class CashbackHackServiceTest {
         assertEquals(expected, actual);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void testRemain2() {
         int amount = 500;
         int expected = 500;
@@ -30,7 +30,7 @@ public class CashbackHackServiceTest {
         assertEquals(expected, actual);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void testWhenAmountIsThousand() {
         int amount = 1000;
         int expected = 1000;
@@ -42,7 +42,7 @@ public class CashbackHackServiceTest {
         assertEquals(expected, actual);
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void testWhenAmountMoreThanThousand() {
         int amount = 1500;
         int expected = 500;
