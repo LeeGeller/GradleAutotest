@@ -20,8 +20,8 @@ public class CashbackHackServiceTest {
 
     @org.testng.annotations.Test
     public void testRemain2() {
-        int amount = 500;
-        int expected = 500;
+        int amount = 400;
+        int expected = 600;
 
         CashbackHackService service = new CashbackHackService();
 
