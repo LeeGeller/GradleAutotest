@@ -10,8 +10,8 @@ public class CashbackHackServiceTestWitJunit4 {
     @org.junit.Test
     public void remain() {
 
-            int amount = 800;
-            int expected = 200;
+            int amount = 700;
+            int expected = 300;
 
             CashbackHackService service = new CashbackHackService();
 
