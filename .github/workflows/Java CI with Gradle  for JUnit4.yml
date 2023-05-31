@@ -2,9 +2,9 @@ name: Java CI with Gradle  for JUnit4
 
 on:
  push:
-  branches: [testJUnit4]
+  branches: [testJunit4]
  pull_request:
-  branches: [testJUnit4]
+  branches: [testJunit4]
 
 jobs:
   build:
