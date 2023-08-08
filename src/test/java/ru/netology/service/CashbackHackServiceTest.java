@@ -6,7 +6,7 @@ import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
 
-    @Test
+    @org.testng.annotations.Test
     public void testRemain() {
         int amount = 900;
         int expected = 100;
